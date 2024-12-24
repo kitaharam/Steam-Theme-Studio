@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "steam-theme-studio"
 version = "0.1.0"
-description = "Steam主题设计器的后端服务"
+description = "A visual tool for creating and managing Steam client themes"
 authors = ["Your Name <your.email@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 fastapi = "^0.105.0"
 uvicorn = "^0.24.0"
 python-multipart = "^0.0.6"

@@ -4,7 +4,7 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
     # 数据库配置
-    DATABASE_URL: str = "sqlite+aiosqlite:///./steampack.db"
+    DATABASE_URL: str = "sqlite+aiosqlite:///./steam_theme_studio.db"
     
     # 应用配置
     APP_NAME: str = "Steam Theme Studio"

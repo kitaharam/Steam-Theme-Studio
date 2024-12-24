@@ -64,7 +64,7 @@ pnpm dev
 后端:
 ```bash
 cd backend
-poetry run python -m src.main
+uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ## 项目结构

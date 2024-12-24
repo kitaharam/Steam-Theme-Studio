@@ -13,6 +13,6 @@ services:
       - DEBUG=false
       - HOST=0.0.0.0
       - PORT=8000
-      - DATABASE_URL=sqlite:///steampack.db
+      - DATABASE_URL=sqlite:///steam_theme_studio.db
       - CORS_ORIGINS=["http://localhost:3000"]
     restart: unless-stopped 
